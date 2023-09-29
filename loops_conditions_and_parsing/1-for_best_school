@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # This script displays "Best School" 10 times.
 
+# Ignore the warning about i appearing unused (used as a loop counter)
+# shellcheck disable=SC2034
 for i in {1..10}; do
   echo "Best School"
 done
