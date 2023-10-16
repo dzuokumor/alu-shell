@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script siaplays "To infinity and beyond" indefinitely
+while :
+do
+echo "To infinity and beyond"
+sleep 2
+ehco "I am invincible!!!"
+done

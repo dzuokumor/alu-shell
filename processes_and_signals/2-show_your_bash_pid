@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #This script shows my bash PID
+# shellcheck disable=SC2009
 pidof bash
