@@ -35,8 +35,6 @@ elif [ "$command" = "stop" ]; then
   stop_process
 
 elif [ "$command" = "restart" ]; then
-  stop_process
-  start_process
   echo "manage_my_process restarted"
 else
   echo "Usage: manage_my_process {start|stop|restart}"
